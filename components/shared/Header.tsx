@@ -11,7 +11,7 @@ export default function Header() {
         {/* Desktop and Mobile */}
         <div className="justify-start flex-1 flex">
           <Link href="/">
-            <Image src={Logo} width={100} height={100} alt="Logo" />
+            <Image src={Logo} width={128} height={38} alt="Logo" />
           </Link>
         </div>
         {/* Desktop */}
