@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function MainNav() {
   return (
-    <div className="hidden md:flex">
+    <div className="hidden md:flex text-white">
       <nav className="flex items-center gap-3 mr-8 lg:gap-4">
         <Link href="/">Home</Link>
         <Link href="/">Project</Link>
