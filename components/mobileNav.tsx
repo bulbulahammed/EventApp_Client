@@ -13,8 +13,11 @@ export default function mobileNav() {
             <CiMenuBurger />
           </Button>
         </SheetTrigger>
-        <SheetContent side="left" className="bg-green-500">
-          <nav className="flex flex-col items-center gap-3">
+        <SheetContent
+          side="left"
+          className="bg-purple-800 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30"
+        >
+          <nav className="flex flex-col items-center gap-3 text-white">
             <Link href="/">Home</Link>
             <Link href="/">Project</Link>
             <Link href="/">Events</Link>
